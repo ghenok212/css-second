@@ -83,3 +83,16 @@ a:active{
     text-align: center;
     font-size: small;
 }
+ui{
+
+    list-style: circle;
+    background: blue;
+}
+ol{
+    list-style: square;
+    list-style-position: inside;
+    background: blue;
+}
+li{
+    background-color: blueviolet;
+}
