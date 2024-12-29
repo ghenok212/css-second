@@ -1,0 +1,28 @@
+p{
+    border: 5px solid red;
+    outline-style : solid;
+    outline-color: aqua;
+    text-align: justify;
+    text-decoration-color: blue;
+    text-decoration-line:overline;
+    text-decoration-thickness: 10;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    word-spacing: 10px;
+    text-shadow:  0px 0px 10px blue,0px 0px 15px violet;
+    /* text-shadow: 2px 2px 5px green; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    font-variant: normal;
+    font-style: italic;
+
+
+
+
+
+
+    ;
+}
