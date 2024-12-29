@@ -1,8 +1,8 @@
 p{
-    border: 5px solid red;
-    outline-style : solid;
-    outline-color: aqua;
-    text-align: justify;
+    /* border: 5px solid red; */
+    /* outline-style : solid; */
+    /* outline-color: aqua; */
+    /* text-align: justify; */
     text-decoration-color: blue;
     text-decoration-line:overline;
     text-decoration-thickness: 10;
@@ -11,9 +11,9 @@ p{
     letter-spacing: 5px;
     line-height: 50px;
     word-spacing: 10px;
-    text-shadow:  0px 0px 10px blue,0px 0px 15px violet;
+    text-shadow:  0px 0px 10px blue,0px 0px 15px violet ;
     /* text-shadow: 2px 2px 5px green; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-size: large;
     font-weight: 100;
     font-variant: normal;
@@ -25,4 +25,61 @@ p{
 
 
     ;
+}
+h1{
+    text-align: center;
+}
+
+
+a:link{
+    background-color: darkmagenta;
+    border: dashed;
+    text-align: center;
+    color: white;
+    outline-style:solid;
+    padding: 30px;
+}
+a:visited{
+    
+    background-color: white;
+    border: 5px red;
+    
+
+}
+a:hover{
+    background-color: green;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 50px;
+}
+a:active{
+    background-color: red;
+    text-align: center;
+    font-size: small;
+    
+}
+h2{
+    a:link{
+        background-color: aqua;
+        border: dashed;
+        text-align: center;
+    }
+}
+a:visited{
+    background-color: gold;
+    border:5px yellow;
+
+}
+a:hover{
+    text-align: center;
+    font-size: large;
+    background-color: greenyellow;
+    border-radius: 12px;
+
+}
+a:active{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: small;
 }
